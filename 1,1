@@ -1,0 +1,20 @@
+
+package Final;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Arithmetic {
+
+    public static void main(String []args){
+        // Creating a new object of Adder
+        Adder obj = new Adder();
+        int one=10;
+        int two=3;
+        int result=obj.add(one, two);
+        System.out.println(result);
+     }
+
+}
